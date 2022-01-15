@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+
+}
+header {
+    padding: 20px 15px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       
+}
+header nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header h1 a {
+    text-decoration: none;
+    color: var(--primary-color);
+    border-top: var(--secondary-color);
+    
+}
+header nav li a {
+    padding: 15px 15px;
+    font-weight: lighter;
+    font-size: 2.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.hero-img {
+    background-image: url(../imgs/Imports\ -\ 1\ of\ 6.jpeg);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.project-card {
+    width: 40%;
+    border: 3px solid #024e76;
+    padding: 20px;
+    margin: 3.5%;
+    
+}
+.project-card h2 {
+display: flex;
+padding: 10px;
+align-items: center;
+justify-content: space-around;
+}
+
+section p {
+    position: center;
+    flex: wrap;
+    border: 3px solid black;
+    padding: 5px;
+    color: var(--tertiary-color);
+    text-align: center;
+    width: 40%;
+}
