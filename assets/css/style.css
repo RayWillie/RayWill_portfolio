@@ -66,16 +66,13 @@ header nav li a {
     background-size: cover;
     align-self: start;
     border: 1px solid var(--secondary-color);
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
-article section p {
-    
+.about-me p {    
     border: 1px solid var(--secondary-color);
     padding: 5px 5px 5px 5px;
     color: var(--primary-color);
-        
 }
 article {
 padding-top: 5px;
@@ -85,31 +82,36 @@ padding-top: 5px;
     font-size: var(--font-size);
     color: var(--p-text);
     font-size: 25px;
-  margin: 0 auto 35px auto;
-  padding-bottom: 2px;
-  width: 50%;
-  text-align: center; 
+    margin: 0 auto 10px auto;
+    padding-bottom: 2px;
+    text-align: center; 
 }
 .projects {
     display: flex;
+    padding-top: 5px;
+    flex-wrap: wrap;
 } 
 .projects h2 {
-    display: block;
+    align-self: center;
 }
 .project-card {
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 10px;
-    align-items: center;
-    justify-content: space-around;  
-    max-width: 60%;
+    justify-content: space-between;  
+    width: auto;
     height: auto;
     border: 3px solid #024e76;
-    padding: 20px;
-    margin: 1.5%;    
+    padding: 5px;
+    margin: 1.5%;
+    max-width: 50%;    
 }
 .project-card div img {
     width: 70%;
 }
+.project-card div:first-child {
+    flex: 2;
+}
+    
 footer {
     padding: 10px 10px;
     background-color: var(--tertiary-color);
