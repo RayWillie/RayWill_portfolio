@@ -134,3 +134,30 @@ footer h4 {
 footer address {
 padding-left: 25px;
 }
+
+/* Media query smart phone */
+@media screen and (max-width: 980px) {
+    header h1 {
+        font-size: 20px;
+    }
+    header nav {
+        width: 100%;
+        color: var(--secondary-color);
+        font-size: 35px;
+    }
+    .about-me img {
+        width: 100%;
+    }
+    .projects {
+        height: auto;
+    }
+    .project-card {
+        flex: 0;
+    }
+    .project-card:first-child {
+        flex: 4;
+    }
+    footer {
+        text-align: center;
+    }    
+}
