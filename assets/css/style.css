@@ -112,7 +112,9 @@ padding-top: 5px;
 .project-card:first-child {
     flex: 3;
     justify-content: flex-start;
+    
 }
+
 .project-card {
     flex: 1;
 }
